@@ -25,7 +25,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.userDnPatterns("uid={0},ou=People")
 			//	.groupSearchBase("cn=Users,ou=Groups,dc=psc,dc=unibratec,dc=com,dc=br")
 				.contextSource()
-					.url("ldap://10.1.7.30:389/dc=psc,dc=unibratec,dc=com,dc=br")
+					.url("ldap://10.1.7.50:389/dc=psc,dc=unibratec,dc=com,dc=br")
 					.and()
 				.passwordCompare()
 					.passwordEncoder(new LdapShaPasswordEncoder())

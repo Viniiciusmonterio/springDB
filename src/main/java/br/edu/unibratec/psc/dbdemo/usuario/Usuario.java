@@ -33,7 +33,7 @@ public class Usuario {
         return cpfOucnpj;
     }
 
-    public String getNome() {
+    public String getNome(String nome2) {
         return nome;
     }
 

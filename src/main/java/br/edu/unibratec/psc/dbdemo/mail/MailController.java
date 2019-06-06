@@ -16,8 +16,8 @@ public class MailController {
     public String sendMail() {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setText("Hello from Spring Boot Application");
-        message.setTo("fernando.luz.neto123@gmail.com");
-        message.setFrom("fernando.luz.neto123@gmail.com");
+        message.setTo("dannilo.zorn@gmail.com");
+        message.setFrom("dannilo.zorn@gmail.com");
 
         try {
             mailSender.send(message);
